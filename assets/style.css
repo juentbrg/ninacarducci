@@ -41,7 +41,10 @@ body {
 .social-link img {
 	width: 20px;
 }
-
+.w-100 {
+    width: 100% !important;
+    height: auto !important;
+}
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -68,8 +71,8 @@ body {
 }
 
 .picture img {
-	width: 100%;
-
+	width: 100% !important;
+	height: auto !important;
 }
 #about-me {
 	flex: 2
@@ -91,7 +94,7 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh; 
 }
 .title{
 	text-align: center;
